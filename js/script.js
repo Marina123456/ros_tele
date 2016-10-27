@@ -4,6 +4,12 @@ function toogleMy(strId,elemInp){//'ViborReg'
         elem.style.display='block';
     else elem.style.display='none';
 }
+function toogleMy1(strId,elemInp){//'ViborCanal'
+    var elem=document.getElementById(strId);
+    if ((elem.style.display=='none') && (elemInp.checked===true))
+        elem.style.display='block';
+    else elem.style.display='none';
+}
 function toogleRadio(){
     var elemRad=document.getElementById('rad1');
 
@@ -11,6 +17,15 @@ function toogleRadio(){
     if (elemRad.checked===true)
         elem.style.display='block';
     else elem.style.display='none';
+    var elem1=document.getElementById('CityFilt');
+    if (elemRad.checked===true)
+        elem1.style.display='block';
+    else elem1.style.display='none';
+    var elem2=document.getElementById('CanFilt');
+    if (elemRad.checked===true)
+        elem2.style.display='block';
+    else elem2.style.display='none'
+
 }
 function test_shablon(i){
     var res=document.getElementById('shablon');
