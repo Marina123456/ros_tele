@@ -61,7 +61,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Предварительный отбор данных для рассылки</h1>
+                    <h1 class="page-header">Для начала настройки выберите цель рассылки</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -98,31 +98,30 @@
                                 <div id="ViborReg" style="display:none" class="checkbox">
                                     <label></label>
                                     <select class="form-control">
-                                        <option>город Санкт-Петербург</option>
-                                        <option>город Мурманск</option>
+                                        <option>Санкт-Петербург</option>
+                                        <option>Мурманск</option>
+                                        <option>Архангельск</option>
+                                        <option>Псков</option>
                                     </select>
                                 </div>
                             </div>
                             
-                            <div id="CanFilt" style="display:none" class="checkbox" >
-                                <label >
-                                    <input value="false" onclick="toogleMy1('ViborCanal',this);" type="checkbox">Выбор канала связи
-                                </label>
-
-                                <div id="ViborCanal" style="display:none" class="form-group">
-                                    <label></label>
+                            <div id="CanFilt" style="display:none" class="form-group" >
+                                
+                                    <label>Выбор канала связи</label>
                                     <select class="form-control">
                                         <option>E-Mail</option>
                                         <option>СМС</option>
                                     </select>
-                                </div>
                             </div>
+                            
                         </div>
                         <br>
                     <input class="btn btn-primary" type="submit" value="Поиск"/>
+                    <input class="btn btn-danger" type="submit" value="Разослать всему списку"/>
                 </form>
                 </div>
-                <!-- /.col-lg-12 -->
+                
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -130,10 +129,7 @@
                         <div class="panel-heading">
                             Пользователи, подходящие под критерии
                         </div>
-                        <form role="form">
-                            <br>
-                            <input class="btn btn-danger" type="submit" value="Разослать всему списку"/>
-                        </form>
+                        
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="dataTable_wrapper">
