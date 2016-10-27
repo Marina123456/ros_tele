@@ -4,6 +4,14 @@ function toogleMy(strId,elemInp){//'ViborReg'
         elem.style.display='block';
     else elem.style.display='none';
 }
+function toogleRadio(){
+    var elemRad=document.getElementById('rad1');
+
+    var elem=document.getElementById('DaysCount');
+    if (elemRad.checked===true)
+        elem.style.display='block';
+    else elem.style.display='none';
+}
 function test_shablon(i){
     var res=document.getElementById('shablon');
     if(i==2){
