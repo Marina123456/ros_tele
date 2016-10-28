@@ -24,6 +24,12 @@ function toogleRadio(){
     
 
 }
+function tooglePanel(){
+    var elem=document.getElementById('Panelll');
+    elem.style.display='block';
+    var elem1=document.getElementById('Send');
+    elem1.className="btn btn-danger";
+}
 function test_shablon(i){
     var res=document.getElementById('shablon');
     if(i==2){
