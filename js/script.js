@@ -18,13 +18,10 @@ function toogleRadio(){
         elem.style.display='block';
     else elem.style.display='none';
     var elem1=document.getElementById('CityFilt');
-    if (elemRad.checked===true)
-        elem1.style.display='block';
-    else elem1.style.display='none';
+	elem1.style.display='block';
     var elem2=document.getElementById('CanFilt');
-    if (elemRad.checked===true)
-        elem2.style.display='block';
-    else elem2.style.display='none'
+    elem2.style.display='block';
+    
 
 }
 function test_shablon(i){
