@@ -12,6 +12,8 @@ function toogleMy1(strId,elemInp){//'ViborCanal'
 }
 function toogleRadio(){
     var elemRad=document.getElementById('rad1');
+    var elemRad2=document.getElementById('rad2');
+    var elemRad3=document.getElementById('rad3');
 
     var elem=document.getElementById('DaysCount');
     if (elemRad.checked===true)
@@ -21,6 +23,10 @@ function toogleRadio(){
 	elem1.style.display='block';
     var elem2=document.getElementById('CanFilt');
     elem2.style.display='block';
+    var elem3=document.getElementById('LastAgent');
+    if (elemRad.checked===false)
+        elem3.style.display='block';
+    else elem3.style.display='none';
     
 
 }
