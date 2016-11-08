@@ -31,6 +31,8 @@ function toogleRadio(){
     elem4.style.display='block';
     var elem5=document.getElementById('Loans');
     elem5.style.display='block';
+    var elem6=document.getElementById('Cycle1');
+    elem6.style.display='block';
 
 }
 function tooglePanel(){
