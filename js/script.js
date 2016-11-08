@@ -27,6 +27,8 @@ function toogleRadio(){
     if (elemRad.checked===false)
         elem3.style.display='block';
     else elem3.style.display='none';
+    var elem4=document.getElementById('Bills');
+    elem4.style.display='block';
     
 
 }
