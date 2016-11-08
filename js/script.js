@@ -29,7 +29,8 @@ function toogleRadio(){
     else elem3.style.display='none';
     var elem4=document.getElementById('Bills');
     elem4.style.display='block';
-    
+    var elem5=document.getElementById('Loans');
+    elem5.style.display='block';
 
 }
 function tooglePanel(){
